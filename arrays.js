@@ -2,7 +2,7 @@ function addElementToBeginningOfArray(a, b){
   
 }
 
-function destructivelyAddElementToBeginningOfArray(a, b){
+function destructivelyAddElementTobeginningOfArray(a, b){
   
 }
 
