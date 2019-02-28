@@ -1,16 +1,19 @@
-function addElementToBeginningOfArray(a, b){
-  var new = [b, ...a]
-  return new
+function addElementToBeginningOfArray(arr, b){
+  var newArr = [b, ...arr]
+  return newArr
 }
 
-function destructivelyAddElementTobeginningOfArray(a, b){
-  
+function destructivelyAddElementTobeginningOfArray(arr, b){
+  arr = [b, ...arr]
+  return arr
 }
 
-function addElementToEndOfArray(a, b){
-  
+function addElementToEndOfArray(arr, b){
+  var Newarr = [...arr, b]
+  return Newarr
 }
 
-function destructivelyAddElementToEndOfArray(a, b){
-  
+function destructivelyAddElementToEndOfArray(arr, b){
+  arr = [...arr, b]
+  return arr
 }
