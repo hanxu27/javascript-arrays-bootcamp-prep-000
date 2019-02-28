@@ -1,5 +1,6 @@
 function addElementToBeginningOfArray(a, b){
-  
+  var new = [b, ...a]
+  return new
 }
 
 function destructivelyAddElementTobeginningOfArray(a, b){
