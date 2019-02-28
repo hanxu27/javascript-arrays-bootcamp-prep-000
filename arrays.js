@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(arr, b){
 
 function addElementToEndOfArray(arr, b){
   var Newarr = [...arr, b]
-  return Newarr
+  return newArr
 }
 
 function destructivelyAddElementToEndOfArray(arr, b){
@@ -22,4 +22,9 @@ function destructivelyAddElementToEndOfArray(arr, b){
 
 function destructivelyRemoveElementFromBeginningOfArray(arr){
   return arr.shift()
+}
+
+function removeElementFromBeginningOfArray(arr){
+  var newArr = arr.slice(1)
+  return
 }
