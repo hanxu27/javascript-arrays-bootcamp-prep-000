@@ -20,6 +20,10 @@ function destructivelyAddElementToEndOfArray(arr, b){
   return arr
 }
 
+function accessElementInArray(arr, b){
+  return arr[b]
+}
+
 function destructivelyRemoveElementFromBeginningOfArray(arr){
   arr.shift()
   return arr
